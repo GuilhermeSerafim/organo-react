@@ -1,3 +1,13 @@
+# Organo — cards de colaboradores por time
+
+Aplicação React para praticar formulários, componentes e estado. O formulário recebe nome, cargo, endereço de imagem e time; `App.js` adiciona os dados à lista de colaboradores e filtra os cards por um conjunto de sete times predefinidos.
+
+Os colaboradores ficam no estado local de `App`. Esse fluxo não salva os dados em backend ou armazenamento persistente; não equivale a um sistema corporativo de gestão de pessoas. Para experimentar, use dados fictícios.
+
+O projeto usa React 18 e react-scripts 5.
+
+## Ambiente de desenvolvimento
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -25,7 +35,7 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The generated build can be used in a deployment configured for this application.
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
